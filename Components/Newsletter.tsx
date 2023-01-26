@@ -8,7 +8,7 @@ const Newsletter = () => {
         <div className='flex-1'>
           <form
             onSubmit={(e) => e.preventDefault()}
-            className='border border-black h-16 p-1 rounded-xl flex justify-between'
+            className='border border-black h-16 p-1 rounded-xl flex justify-between xs:w-10/12'
           >
             <input
               className='flex-1 placeholder:text-sm outline-none'
