@@ -8,10 +8,10 @@ const Newsletter = () => {
         <div className='flex-1'>
           <form
             onSubmit={(e) => e.preventDefault()}
-            className='border border-black h-16 p-1 rounded-xl flex justify-between xs:w-10/12'
+            className='border border-black h-16 p-1 rounded-xl flex justify-between'
           >
             <input
-              className='flex-1 placeholder:text-sm outline-none'
+              className='flex-1 placeholder:text-sm outline-none xs:flex-initial'
               placeholder='Email Address'
             />
             <button className='xs:text-sm h-full px-10 bg-gradient-to-r xs:px-2 from-light-color to-dark-color text-white rounded-xl'>
