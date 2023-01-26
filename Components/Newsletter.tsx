@@ -11,7 +11,7 @@ const Newsletter = () => {
             className='border border-black h-16 p-1 rounded-xl flex justify-between xs:flex-col xs:border-none'
           >
             <input
-              className='flex-1 placeholder:text-sm outline-none'
+              className='flex-1 placeholder:text-sm outline-none xs:mb-5 xs:border xs:border-black'
               placeholder='Email Address'
             />
             <button className='xs:text-sm h-full px-10 bg-gradient-to-r xs:px-2 from-light-color to-dark-color text-white rounded-xl'>
